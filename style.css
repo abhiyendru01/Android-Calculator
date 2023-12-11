@@ -1,0 +1,231 @@
+body {
+  color: #fff;
+  font-family: 'Roboto';
+}
+.container {
+  margin: 2% auto;
+  width: 235px;
+}
+.phone {
+  background: #221e1f;
+  display: flex;
+  border: 5px solid #4b473f;
+  height: 500px;
+  width: 235px;
+  border-radius: 30px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s linear;
+}
+.phone:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.phone .camera {
+  position: absolute;
+  background: #585858;
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  margin-top: 17px;
+  margin-left: 25px;
+}
+.phone .camera_lens {
+  position: absolute;
+  background-color: #0d0d0d;
+  height: 5px;
+  width: 5px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 28px;
+}
+.phone .speaker {
+  position: absolute;
+  background-color: #574b4d;
+  height: 5px;
+  width: 50px;
+  border-radius: 3px;
+  margin-top: 17px;
+  margin-left: 93px;
+}
+.phone .mark {
+  position: absolute;
+  background-color: #000;
+  height: 8px;
+  width: 20px;
+  border-radius: 10px;
+  margin-left: 108px;
+  margin-top: 35px;
+}
+.phone .screen {
+  background: #fff;
+  position: absolute;
+  height: 390px;
+  width: 225px;
+  margin-left: 0px;
+  margin-top: 50px;
+  background-size: 260px 450px;
+}
+.phone .screen .topbar {
+  font-size: 12px;
+  color: #fff;
+  text-align: right;
+  background-color: #00bcd4;
+}
+.phone .screen .topbar i {
+  font-size: 12px;
+  margin-right: 8px;
+  vertical-align: middle;
+  width: 10px;
+}
+.phone .screen .topbar span {
+  margin-right: 5px;
+  margin-bottom: 2px;
+  font-size: 10px;
+}
+.phone .lock {
+  background-color: #797471;
+  position: absolute;
+  height: 35px;
+  width: 3px;
+  margin-left: 230px;
+  margin-top: 100px;
+  border-top-right-radius: 3px 3px;
+  border-bottom-right-radius: 3px 3px;
+}
+.phone .volume {
+  background-color: #797471;
+  position: absolute;
+  height: 75px;
+  width: 3px;
+  margin-top: 180px;
+  margin-left: 230px;
+  border-top-right-radius: 3px 3px;
+  border-bottom-right-radius: 3px 3px;
+}
+.display {
+  height: 140px;
+  overflow: hidden;
+}
+.input {
+  max-width: 100%;
+  box-sizing: border-box;
+  border: none;
+  text-align: right;
+  outline: none;
+  color: #5e5e5e;
+  margin-top: 5px;
+  padding: 12px;
+  padding-bottom: 0;
+  font-size: 40px;
+  overflow: hidden;
+}
+.output {
+  text-align: right;
+  color: #7f7f7f;
+  padding: 12px;
+  padding-top: 0;
+  font-size: 28px;
+  font-weight: 300;
+  overflow: hidden;
+}
+.keypad {
+  background: #434343;
+  color: #fff;
+  float: left;
+  padding: 10px 0;
+}
+.key {
+  border: none;
+  background: #434343;
+  font-size: 24px;
+  font-weight: 300;
+  width: 55px;
+  height: 55px;
+}
+.key:hover,
+.key:active,
+.key:focus {
+  background: #535353;
+}
+.operators {
+  background: #636363;
+  color: #fff;
+  float: left;
+  padding: 5px 0;
+}
+.operators .key {
+  background: #636363;
+  font-size: 16px;
+  height: 46px;
+  width: 46px;
+  min-width: 44px;
+  display: block;
+}
+.operators .key:hover {
+  background: #535353;
+}
+.extendedOperators {
+  background: #1de9b6;
+  height: 240px;
+  width: 14px;
+  float: left;
+}
+#footer {
+  background: transparent;
+  color: #fffae4;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#footer .socials-media {
+  width: 100%;
+}
+
+#footer .socials-media ul {
+  display: inline-block;
+  float: none;
+  margin: 0 0 20px 0;
+}
+
+#footer .socials-media ul li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#footer .socials-media ul li a {
+  font-size: 24px;
+  color: #000000db;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  background: transparent;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#footer .socials-media ul li a:hover {
+  color: #353330;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#footer p {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  color: #161615cc;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.credits {
+  font-size: 13px;
+  color: #fffae4;
+}
+.credits a{
+  display: flex;
+  padding-bottom: 0 0 10px;
+  text-decoration: none;
+  color: #000;
+}
+credits{
+  color: #fffae4;
+}
